@@ -43,7 +43,6 @@ class test_division(unittest.TestCase):
         self.assertAlmostEquals(mathlib.division(-5,-10),0.5)
 
     def test_division_float(self):
-        # self.assertRaises(mathlib.division(5.5,0))
         self.assertAlmostEquals(mathlib.division(5.2,-10.4),-0.5)
         self.assertAlmostEquals(mathlib.division(0,-10.4),0)
         self.assertAlmostEquals(mathlib.division(-5.1,-10.8),0.472222222)
